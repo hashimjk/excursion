@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: black;
+   background-color: black;
 }
 /* Header text */
 header{
@@ -22,4 +22,63 @@ header a{
     margin-top: 15px;
     color: aquamarine;
     font-size: 16px;
+}
+
+/* Video*/
+.Vid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.textt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textt .Titlee{
+    font-family: Verdana;
+    font-weight: 300;
+    font-size: 42px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    color: white;
+}
+.textt .subtitle{
+    font-family: Verdana ;
+    font-size: 21px;
+    color: gray;
+    margin-bottom: 20px;
+}
+.pic{
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pic img{
+    margin-top: 20px;
+}
+.pic span{
+    font-family: Verdana;
+    font-size: 42px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    color: white;
+}
+.pic a{
+    font-family: Verdana;
+    margin-top: 15px;
+    color: aquamarine;
+    font-size: 16px;
+}
+
+h4{
+    color: gray;
+    text-align: right;
+
 }
